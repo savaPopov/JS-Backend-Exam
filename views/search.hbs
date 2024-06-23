@@ -1,0 +1,25 @@
+<section class="search-container">
+    <h2>Search Recipes</h2>
+    <form method="get" name="search-form">
+        <input type="text" id="search" name="title" placeholder="Search for recipes..." {{#if data.title}}
+            value="{{data.title}}" {{/if}}>
+        <button type="submit">Search</button>
+    </form>
+
+    <div class="search-results">
+
+        {{#if recipes}}
+
+        {{#each recipes}}
+        {{> recipes-catalog}}
+        {{/each}}
+
+        {{else}}
+        <p class="no-match">There are no recipes found yet!</p>
+        {{/if}}
+
+        <!-- Add more search results here -->
+
+
+    </div>
+</section>
