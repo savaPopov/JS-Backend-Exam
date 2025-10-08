@@ -25,17 +25,7 @@ A full-stack MVC web application for sharing and discovering recipes with secure
 - **Frontend:** Handlebars templating engine
 - **Security:** express-validator, password hashing
 - **Session Management:** Cookie-based JWT tokens
-
-## 🚀 Installation
-
-```bash
-# Install dependencies
-npm install
-
-# Start the application
-node src/index.js
-
-# Server runs on http://localhost:3000
+  
 
 ## 📸 Screenshots
 
@@ -58,3 +48,18 @@ node src/index.js
 <img width="1857" height="958" alt="DetailsOwner" src="https://github.com/user-attachments/assets/7a7d738c-b685-4ba1-8382-b6fc1a9dedc7" />
 
 <img width="1857" height="958" alt="Edit" src="https://github.com/user-attachments/assets/a39ff722-2eb6-44cc-b830-ed4455556848" />
+
+
+## 🚀 Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Start the application
+node src/index.js
+
+# Server runs on http://localhost:3000
+
+
+
